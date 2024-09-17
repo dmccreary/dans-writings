@@ -1,3 +1,3 @@
 # UI Test
 
-[UI Test](ui-test.html)
+[Epsilla Chatbot UI Test](ui-test.html)
