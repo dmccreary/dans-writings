@@ -1,0 +1,51 @@
+site_name: Dan's Writing
+site_description: 'Writings of Dan McCreary'
+site_author: 'Dan McCreary'
+repo_name: 'GitHub Repo'
+site_url: 'https://dmccreary.github.io/dans-writings/'
+repo_url: 'https://github.com/dmccreary/dans-writingse'
+edit_uri: 'blob/master/docs'
+
+nav:
+  - Home: index.md
+  - UI Test: ui-test.md
+  - Contact: contact.md
+ 
+# CoderDojo Microsite Standards from here down
+
+theme:
+  name: material
+  extra_css:
+    - styles/custom.css
+  # logo: img/my-icon.png
+  # favicon: img/my-icon.png
+  palette:
+    primary: 'blue'
+    accent: 'orange'
+  include_sidebar: true
+  features:
+    - content.code.copy
+    - navigation.expand
+    - navigation.path
+    - navigation.prune
+    - navigation.indexes
+    - toc.follow
+    - navigation.top
+    # this adds the prev and next icons in the footer
+    - navigation.footer
+    - content.action.edit
+plugins:
+  - search
+#  - social
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - pymdownx.highlight:
+      linenums: true
+#extra:
+#  analytics:
+#    provider: google
+    # https://analytics.google.com/analytics/web/#/a1420179p349994530/admin/streams/table/4433129821
+#    property: G-XXXX

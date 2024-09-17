@@ -1,0 +1,60 @@
+# Convergent Evolution of GenAI and Knowledge Graphs
+## Predicting the architecture of intelligent organizations
+## Metadata
+
+* **Author:** Dan McCreary
+* **Date of Publication:** Jul 5, 2024
+* **Source URL**: [Medium Article](https://medium.com/@dmccreary/convergent-evolution-of-genai-and-knowledge-graphs-87bbacd646c9)
+
+
+*Figure Caption:* The crab body plan is an example of converged evolution.
+
+Have you ever looked at a crab and thought, “Wow, that is really a strange animal!” It must have been an odd one-time occurrence in evolution.
+
+Quite shockingly, the crab-like body form, known as carcinization, has evolved multiple times independently. This body plan, characterized by a broad, flattened body with a reduced tail and strong claws, has evolved in different groups of crustaceans, such as true crabs (Brachyura), king crabs (Anomura), and porcelain crabs. Despite their different evolutionary lineages, these crustaceans have developed a similar body form due to similar environmental pressures and lifestyles.
+
+Convergent evolution is the process where unrelated or distantly related organisms independently evolve similar traits or adaptations due to similar environmental pressures or ecological niches. This phenomenon illustrates how different species can develop analogous structures or functions despite having different ancestral origins.
+
+Convergent evolution can also be seen in the wings of birds, bats, and insects and in many other body parts, such as eyes, fins, and legs. It is a sign that an underlying design pattern effectively solves specific problems. When we see convergent evolution in software architecture, it tells us there is an underlying solution to a persistent problem. We need to take note.
+
+## Convergent Evolution of GenAI and Knowledge Graphs
+
+I have been thinking a lot about convergent evolution for the architecture of intelligent organizations. By intelligent organization, you can think of a benevolent version of SkyNet that can quickly answer any questions about your products and customers using a natural language interface. I hypothesize that intelligent organizations are evolving to a standardized architecture that interweaves machine learning (ML) and knowledge graphs (KG) to demonstrate convergent evolution.
+
+Let’s take a look at three examples of ML/KG convergence.
+
+## Personalization of LLM Chatbots
+
+In February of this year, OpenAI announced what I call its “Remember This” feature. You can add the prefix “Remember this:” to a statement about yourself, and OpenAI’s ChatGPT will remember the statement in the future. You can then use this in subsequent questions. So, for example, you can state:
+
+Remember this: I am a systems thinker and take a holistic view of problems. I focus on relationships, interconnections, causality, and feedback. I look for reinforcing and limiting causal loops. I leverage feedback and seek to understand unintended consequences. I seek leverage points to make positive change at a minimal cost.
+
+Then, in the future, I can ask, Use my systems thinking viewpoints, and suggest an approach to problem X. ChatGPT will then use my systems thinking perspective to help analyze problems. I have often used this approach to try to work through complex issues. Here is an example:
+
+How would I use my systems thinking approach to study teaching computational thinking?
+
+These results are fantastic. The suggestions are much more strategic and take a longer-term perspective.
+
+We can also have the LLM use these facts to do basic reasoning. If you tell ChatGPT, “Remember this: I live in Minneapolis, MN” and then ask, “In what country do I live?” then ChatGPT will respond, “You live in the United States.” Although this is a simple example, other much more complicated examples work. You can also have ChatGPT tell you all the facts it knows about you in RDF turtle format. Its native format is not exactly a pure graph structure, but it is close.
+
+These capabilities are rough today. However, with the OpenAI acquisition of Rockset, you can infer that storing project, department, business unit, and organization data is just around the corner.
+
+## Integration of Personal Knowledge Graphs (PKGs)
+
+I am a huge fan of tools that help people turn notes into structured knowledge graphs, known as Personal Knowledge Graphs (PKGs). I have written extensively on this topic and have been honored to have my blogs published in a book on PKGs. I use powerful PKG tools like Roam Research and Obsidian to help capture my stream-of-conscious thoughts into graph structures for my writing. I then combine excerpts from my graph into prompts within chatbots. Many people are using both LLMs and PKGs to aid in their writing. This is another example of how LLMs and Knowledge Graphs converge to solve problems.
+
+## Integration of ChatBots to Knowledge Graphs
+
+Every major player in the graph database area has one or more strategic projects to leverage Natural Language Processing (NLP) into their products. These strategies have been going on for over five years, and the tools are becoming more sophisticated. Python libraries such as LangChain and LlamaIndex now connect directly to LLMs and graph databases. Once again, LLMs and Knowledge Graphs are converging.
+
+## Consequences for the Design of Intelligent Organizations
+
+So what does this all mean? The architecture of intelligent organization is a lot like the crab body plan. There are many different starting points, but they are all converging on the same architectural pattern. They combine the best parts of LLMs and Knowledge Graphs together to build integrated solutions that make your organization smarter and better able to react to changes in the world around us.
+
+At the core of these architectures is the realization that today, building high-precision models of the world is best done using distributed native labeled property graphs. No other architecture scales to hundreds of servers. Relational databases are slow, siloed, and reflect convenient data representations of punch cards from our historical past, not our future. But we are still years away from generating high-quality GQL code in real-time that will traverse billions of vertices without negatively impacting our enterprise knowledge graph performance. But we are all evolving in this direction. It is convergent evolution.
+
+## More to Explore
+For those who want to dig deeper, I encourage you to read my blog, The Jellyfish and the Flatworm. It contains well-tested stories to help you explain to your peers what an intelligent organization really is. For more background on what an Enterprise Knowledge Graph is (and is not), please read the blog A Definition of Enterprise in EKG. You can get a list of the four blogs on Personal Knowledge Graphs here.
+
+## Acknowledgments
+I want to thank my friend Arun Batchu for helping me think through these issues. He constantly pushes me to think deeper about essential issues and challenges me to continue writing. I am truly blessed for his continued mentoring and guidance.
